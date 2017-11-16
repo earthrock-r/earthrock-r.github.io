@@ -21,44 +21,16 @@
       <h2>This is Encryptisor</h2>
       <h3>Download it on the App Store <a href="#">here</a>.</h3>
       <!-- <h3>The website version is coming soon, so stay updated!</h3> -->
-      <div class="reviews">
-        <div id="disqus_thread"></div>
-<script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
-     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
-     *  PLATFORM OR CMS.
-     *  
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: 
-     *  https://disqus.com/admin/universalcode/#configuration-variables
-     */
-    
-    var disqus_config = function () {
-        // Replace PAGE_URL with your page's canonical URL variable
-        this.page.url = "earthrock-r.github.io/enc/";  
-        
-        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        this.page.identifier = "Encryptisor"; 
-    };
-    
-    
-    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
-        var d = document, s = d.createElement('script');
-        
-        // IMPORTANT: Replace EXAMPLE with your forum shortname!
-        s.src = 'https://encryptisor.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>
-    Please enable JavaScript to view the 
-    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
-        comments powered by Disqus.
-    </a>
-</noscript>
-      </div>
+      <form method="POST" action="https://api.staticman.net/v2/entry/eduardoboucas/staticman/gh-pages/comments">
+  <input name="options[redirect]" type="hidden" value="https://my-site.com">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[name]" type="text">Name</label>
+  <label><input name="fields[email]" type="email">E-mail</label>
+  <label><textarea name="fields[message]"></textarea>Message</label>
+  
+  <button type="submit">Go!</button>
+</form>
     </div>
     <div id="footer">
       <ul>
