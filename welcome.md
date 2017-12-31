@@ -13,8 +13,6 @@ _Welcome!!!_
 
 _Hi There!_  
 
-**AVADA KEDAVRA**
-
 </div>
 </body>
 </html>
