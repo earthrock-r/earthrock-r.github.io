@@ -10,13 +10,11 @@
 _Welcome!!!_
 
 <div style="text-align:center">
-  
 {{% md %}}
 
 _Hi There!_
 
 {{% /md %}}
-
 </div>
 </body>
 </html>
