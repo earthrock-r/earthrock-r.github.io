@@ -1,8 +1,8 @@
 <html>
-  <head>
-	<title>Welcome!</title>
-  </head>
-  <body>
+<head>
+<title>Welcome!</title>
+</head>
+<body style="text-align:center">
     
 # Welcome
 ## Sample
