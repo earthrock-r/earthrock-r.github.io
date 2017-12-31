@@ -9,12 +9,10 @@
 
 _Welcome!!!_
 
-<div style="text-align:center">
-{{% md %}}
+<div style="text-align:center" markdown=1>
 
 _Hi There!_
 
-{{% /md %}}
 </div>
 </body>
 </html>
