@@ -2,7 +2,7 @@
 <head>
 <title>Welcome!</title>
 </head>
-<body style="text-align:center">
+<body>
     
 # Welcome
 ## Sample
