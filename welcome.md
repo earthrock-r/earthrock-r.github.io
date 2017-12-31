@@ -9,7 +9,7 @@
 
 _Welcome!!!_
 
-<div style="text-align:center" class="markdown=1">
+<div style="text-align:center">
 _Hi There!_
 </div>
 </body>
