@@ -9,10 +9,10 @@
 
 _Welcome!!!_
 
-<div style="text-align:center">
+<span style="text-align:center">
   
 	_Hi There!_
 
- </div>
+ </span>
 </body>
 </html>
